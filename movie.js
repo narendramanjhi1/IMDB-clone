@@ -1,4 +1,4 @@
-const apiKey = '1b1b60c0';
+const apiKey = '2ae9805c';
 
 async function getMovieDetailsById(imdbID) {
     const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&i=${imdbID}`);
